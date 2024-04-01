@@ -1,0 +1,85 @@
+.booked{
+  background-color: #fa253b;
+}
+.not-booked{
+  background-color: #C0C0C0;
+}
+.selected{
+  background-color: #2f724a;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.customColumn {
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
+  margin: 0.1em 0.1em;
+  flex: 1; /* Allow columns to flex and take equal width */
+}
+
+.customColumn1 {
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
+  margin: 0.1em 0.1em;
+  padding-top: 0.6em;
+  flex: 1; /* Allow columns to flex and take equal width */
+}
+
+.selected {
+  background-color: #17f16e;
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width:1400px) {
+  .customColumn{
+    font-size: 0.7em;
+    padding: 0.2em;
+  }
+  .customColumn1 {
+    font-size: 1em;
+    padding: 0.2em;
+  }
+  
+}
+@media (max-width: 1100px) {
+  .customColumn{
+    font-size: 0.4em;
+    padding: 0.2em;
+  }
+  .customColumn1 {
+    font-size: 0.5em;
+    padding: 0.2em;
+  }
+}
+@media screen and (max-width:568px) {
+  .customColumn{
+    font-size: 0.4em;
+    padding: 0.2em;
+  }
+  .customColumn1 {
+    font-size: 0.5em;
+    padding: 0.2em;
+  }
+}
+@media screen and (max-width:375px) {
+  .customColumn{
+    font-size: 0.4em;
+    padding: 0.2em;
+  }
+  .customColumn1 {
+    font-size: 0.5em;
+    padding: 0.2em;
+  }
+  
+}
